@@ -1,0 +1,273 @@
+{
+	"id": "517d0397-a49f-46db-876e-d42894e3c6be",
+	"name": "group_25",
+	"timestamp": "2021-12-24T16:01:50.875Z",
+	"collection_id": "0-ca873f93-673c-4f0d-a713-68e220c5ac2a",
+	"folder_id": 0,
+	"environment_id": "537a0117-a7fd-447c-ae80-746b74237200",
+	"totalPass": 5,
+	"totalFail": 3,
+	"results": [
+		{
+			"id": "0d731ced-a80d-4188-bb95-a2a19c1cb8fa",
+			"name": "first",
+			"url": "http://162.55.220.72:5005/get_method?name=Elena&age=37",
+			"time": 75,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"name = Elena": false,
+				"Body is correct": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"name = Elena": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Body is correct": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				75
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"name = Elena": false,
+					"Body is correct": false
+				}
+			]
+		},
+		{
+			"id": "abc0d8c3-5898-4cc1-a497-10931caf4384",
+			"name": "second",
+			"url": "http://162.55.220.72:5005/user_info_3",
+			"time": 72,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				72
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "71897bac-bb45-44ac-b056-1af72157b915",
+			"name": "object_info_1",
+			"url": "http://162.55.220.72:5005/object_info_1?name=Max&age=32&weight=73",
+			"time": 67,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				67
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c479c21e-b32f-4e81-9d93-874d4741ad5c",
+			"name": "object_info_2",
+			"url": "http://162.55.220.72:5005/object_info_2?name=Nataly&age=35&salary=7000",
+			"time": 66,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"equais": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"equais": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				66
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"equais": false
+				}
+			]
+		},
+		{
+			"id": "4d9da068-233f-4586-a579-b88431005530",
+			"name": "object_info_3",
+			"url": "http://162.55.220.72:5005/object_info_3?name=Elena&age=40&salary=8000",
+			"time": 65,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				65
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "8efef898-923f-4d41-8174-beede67c9717",
+			"name": "object_info_4",
+			"url": "http://162.55.220.72:5005/object_info_4?name=Elena&age=37&salary=7000",
+			"time": 66,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				66
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3c9b9abb-746a-4625-bb8e-798bcc63b41a",
+			"name": "form data",
+			"url": "http://162.55.220.72:5005/user_info_2",
+			"time": 76,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				76
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9ab3cba4-6da4-4f6f-9dbc-32909ba23833",
+			"name": "login",
+			"url": "http://162.55.220.72:5005/login",
+			"time": 71,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				71
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6d4e76ba-f255-46c9-94df-b27d366b3987",
+			"name": "get_test_user",
+			"url": "http://162.55.220.72:5005/get_test_user",
+			"time": 68,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Your test age > 29": true,
+				"Structure json": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Your test age > 29": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Structure json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				68
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Your test age > 29": true,
+					"Structure json": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 626,
+	"collection": {
+		"requests": [
+			{
+				"id": "0d731ced-a80d-4188-bb95-a2a19c1cb8fa",
+				"method": "GET"
+			},
+			{
+				"id": "abc0d8c3-5898-4cc1-a497-10931caf4384",
+				"method": "POST"
+			},
+			{
+				"id": "71897bac-bb45-44ac-b056-1af72157b915",
+				"method": "GET"
+			},
+			{
+				"id": "c479c21e-b32f-4e81-9d93-874d4741ad5c",
+				"method": "GET"
+			},
+			{
+				"id": "4d9da068-233f-4586-a579-b88431005530",
+				"method": "GET"
+			},
+			{
+				"id": "8efef898-923f-4d41-8174-beede67c9717",
+				"method": "GET"
+			},
+			{
+				"id": "3c9b9abb-746a-4625-bb8e-798bcc63b41a",
+				"method": "POST"
+			},
+			{
+				"id": "9ab3cba4-6da4-4f6f-9dbc-32909ba23833",
+				"method": "POST"
+			},
+			{
+				"id": "6d4e76ba-f255-46c9-94df-b27d366b3987",
+				"method": "POST"
+			}
+		]
+	}
+}
