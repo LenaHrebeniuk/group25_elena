@@ -1,0 +1,239 @@
+{
+	"id": "9847d156-ba00-4e11-84c7-7bfce18d91f3",
+	"name": "Lesson2",
+	"timestamp": "2021-12-24T15:07:49.887Z",
+	"collection_id": "0-96b98a82-d53d-43f4-a1c3-7f30fa6cd8bc",
+	"folder_id": 0,
+	"environment_id": "537a0117-a7fd-447c-ae80-746b74237200",
+	"totalPass": 15,
+	"totalFail": 1,
+	"results": [
+		{
+			"id": "e6ec7a4b-3f83-4766-8867-3e129554148c",
+			"name": "first",
+			"url": "http://162.55.220.72:5005/get_method?name=Elena&age=37",
+			"time": 80,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				80
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": false
+				}
+			]
+		},
+		{
+			"id": "f8f98b80-f527-45cc-bd92-b866b77378e8",
+			"name": "currency",
+			"url": "http://162.55.220.72:5005/currency",
+			"time": 601,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				601
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "c109c84e-87b6-478a-9e05-e43c8da5ebc6",
+			"name": "user_info",
+			"url": "http://162.55.220.72:5005/user_info",
+			"time": 66,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Structure json": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Structure json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				66
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Structure json": true
+				}
+			]
+		},
+		{
+			"id": "bd164daa-23e8-4823-9dc8-761084a9efea",
+			"name": "new_data",
+			"url": "http://162.55.220.72:5005/new_data",
+			"time": 71,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Veryfy that age equal 25": true,
+				"Veryfy that name equal Max": true,
+				"Veryfy that salary equal 3000": true,
+				"Structure json": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Veryfy that age equal 25": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Veryfy that name equal Max": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Veryfy that salary equal 3000": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Structure json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				71
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Veryfy that age equal 25": true,
+					"Veryfy that name equal Max": true,
+					"Veryfy that salary equal 3000": true,
+					"Structure json": true
+				}
+			]
+		},
+		{
+			"id": "522b720b-347b-4687-b430-f8cd19ee3862",
+			"name": "test_pet_info",
+			"url": "http://162.55.220.72:5005/test_pet_info",
+			"time": 79,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Veryfy that age equal 40": true,
+				"Veryfy that daily_food equal weight*0.012": true,
+				"Veryfy that daily_sleep equal weight*2.5": true,
+				"Veryfy that name equal Anna": true,
+				"Structure json": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Veryfy that age equal 40": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Veryfy that daily_food equal weight*0.012": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Veryfy that daily_sleep equal weight*2.5": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Veryfy that name equal Anna": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Structure json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				79
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Veryfy that age equal 40": true,
+					"Veryfy that daily_food equal weight*0.012": true,
+					"Veryfy that daily_sleep equal weight*2.5": true,
+					"Veryfy that name equal Anna": true,
+					"Structure json": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 897,
+	"collection": {
+		"requests": [
+			{
+				"id": "e6ec7a4b-3f83-4766-8867-3e129554148c",
+				"method": "GET"
+			},
+			{
+				"id": "f8f98b80-f527-45cc-bd92-b866b77378e8",
+				"method": "POST"
+			},
+			{
+				"id": "c109c84e-87b6-478a-9e05-e43c8da5ebc6",
+				"method": "POST"
+			},
+			{
+				"id": "bd164daa-23e8-4823-9dc8-761084a9efea",
+				"method": "POST"
+			},
+			{
+				"id": "522b720b-347b-4687-b430-f8cd19ee3862",
+				"method": "POST"
+			}
+		]
+	}
+}
